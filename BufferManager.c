@@ -111,7 +111,7 @@ int main () {
 	printf("Inicializando a lista heat...\n"); 
 	
 	struct no *headh = NULL;
-    struct no *tailh = NULL;
+    	struct no *tailh = NULL;
 	struct no *auxh = NULL;
 	int i;
 	headh = (struct no*) malloc(sizeof(struct no*));
@@ -133,7 +133,7 @@ int main () {
 	
 	printf("Inicializando a lista old...\n"); 
 	struct no *heado = NULL;
-    struct no *tailo = NULL;
+   	struct no *tailo = NULL;
 	struct no *auxo = NULL;
 	heado = (struct no*) malloc(sizeof(struct no*));
 	heado->Data = -1;
